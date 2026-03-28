@@ -1,4 +1,5 @@
 Java Swing Expression Calculator
+---
 A desktop calculator application built with Java Swing that handles complex arithmetic expressions. Unlike standard step-by-step calculators, this project parses full strings to calculate results using order of operations.
 
 ---
@@ -14,6 +15,7 @@ Delete (del) button for character-by-character correction.
 
 Order of Operations: Logic is designed to process exponents first, followed by multiplication/division, and finally addition/subtraction.
 
+---
 📁 Project Structure
 The project consists of three main Java files:
 
@@ -23,6 +25,7 @@ Gui.java: Contains the Swing UI components, layout, and event handling.
 
 Calculator.java: Contains the core logic for string parsing and mathematical calculations.
 
+---
 🛠️ Installation & Running
 Clone the repository:
 
@@ -36,6 +39,8 @@ Run the application:
 
 Bash
 java Calculator_Gui_Launcher
+
+---
 🖥️ How it Works
 The calculator uses a StringBuilder to separate digits from operators. It stores them in ArrayLists and iterates through them based on operator priority:
 
@@ -45,6 +50,7 @@ Multiplication (*) and Division (/) are processed left-to-right.
 
 Addition (+) and Subtraction (-) are processed last.
 
+---
 🎨 UI Preview
 Background: Dark Gray
 
