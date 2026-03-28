@@ -1,6 +1,6 @@
 Java Swing Expression Calculator
 A desktop calculator application built with Java Swing that handles complex arithmetic expressions. Unlike standard step-by-step calculators, this project parses full strings to calculate results using order of operations.
-
+---
 🌟 Features
 Expression Parsing: Handles full notation inputs (e.g., 5+5*2).
 Advanced Math: Supports Addition, Subtraction, Multiplication, Division, and Exponents (^).
