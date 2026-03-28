@@ -5,6 +5,7 @@ A desktop calculator application built with Java Swing that handles complex arit
 ---
 
 🌟 Features
+
 Expression Parsing: Handles full notation inputs (e.g., 5+5*2).
 Advanced Math: Supports Addition, Subtraction, Multiplication, Division, and Exponents (^).
 Interactive GUI: * Dark-themed "Digital" interface.
@@ -17,6 +18,7 @@ Order of Operations: Logic is designed to process exponents first, followed by m
 
 ---
 📁 Project Structure
+
 The project consists of three main Java files:
 
 Calculator_Gui_Launcher.java: The entry point that initializes the application.
@@ -27,6 +29,7 @@ Calculator.java: Contains the core logic for string parsing and mathematical cal
 
 ---
 🛠️ Installation & Running
+
 Clone the repository:
 
 Bash
@@ -42,6 +45,7 @@ java Calculator_Gui_Launcher
 
 ---
 🖥️ How it Works
+
 The calculator uses a StringBuilder to separate digits from operators. It stores them in ArrayLists and iterates through them based on operator priority:
 
 Exponents (^) are calculated first.
@@ -52,6 +56,7 @@ Addition (+) and Subtraction (-) are processed last.
 
 ---
 🎨 UI Preview
+
 Background: Dark Gray
 
 Display: Gray with White "Digital" font.
